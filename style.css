@@ -239,3 +239,15 @@ footer {
   font-size: 0.85rem;
 }
 
+@media (max-width: 640px) {
+  .problema-grid,
+  .modulos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contacto-info {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
