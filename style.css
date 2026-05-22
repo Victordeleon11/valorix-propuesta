@@ -249,5 +249,10 @@ footer {
     flex-direction: column;
     gap: 1.5rem;
   }
+
+  .contacto-item strong {
+    word-break: break-all;
+    display: block;
+  }
 }
 
